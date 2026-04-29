@@ -1,0 +1,49 @@
+{
+    "total_summary": {
+        "total_distance_km": 176.57,
+        "total_duration_min": 438.0,
+        "total_runtime_s": 0.331
+    },
+    "cluster_details": [
+        {
+            "Klaster": "Barat",
+            "Jarak Optimasi (km)": 44.983,
+            "Jarak Visual Jalan (km)": 73.71,
+            "Durasi Jalan (menit)": 102.5,
+            "Runtime (s)": 0.04458022117614746,
+            "Jumlah Titik": 12
+        },
+        {
+            "Klaster": "Pusat",
+            "Jarak Optimasi (km)": 26.111,
+            "Jarak Visual Jalan (km)": 44.56,
+            "Durasi Jalan (menit)": 62.9,
+            "Runtime (s)": 0.029020071029663086,
+            "Jumlah Titik": 8
+        },
+        {
+            "Klaster": "Selatan",
+            "Jarak Optimasi (km)": 36.652,
+            "Jarak Visual Jalan (km)": 75.52,
+            "Durasi Jalan (menit)": 103.8,
+            "Runtime (s)": 0.07549691200256348,
+            "Jumlah Titik": 16
+        },
+        {
+            "Klaster": "Timur",
+            "Jarak Optimasi (km)": 33.975,
+            "Jarak Visual Jalan (km)": 60.72,
+            "Durasi Jalan (menit)": 88.7,
+            "Runtime (s)": 0.08590388298034668,
+            "Jumlah Titik": 14
+        },
+        {
+            "Klaster": "Utara",
+            "Jarak Optimasi (km)": 34.851,
+            "Jarak Visual Jalan (km)": 60.17,
+            "Durasi Jalan (menit)": 80.1,
+            "Runtime (s)": 0.09601712226867676,
+            "Jumlah Titik": 13
+        }
+    ]
+}
