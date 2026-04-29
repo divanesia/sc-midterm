@@ -1,49 +1,85 @@
 {
-    "total_summary": {
-        "total_distance_km": 176.57,
-        "total_duration_min": 438.0,
-        "total_runtime_s": 0.331
-    },
-    "cluster_details": [
-        {
-            "Klaster": "Barat",
-            "Jarak Optimasi (km)": 44.983,
-            "Jarak Visual Jalan (km)": 73.71,
-            "Durasi Jalan (menit)": 102.5,
-            "Runtime (s)": 0.04458022117614746,
-            "Jumlah Titik": 12
-        },
-        {
-            "Klaster": "Pusat",
-            "Jarak Optimasi (km)": 26.111,
-            "Jarak Visual Jalan (km)": 44.56,
-            "Durasi Jalan (menit)": 62.9,
-            "Runtime (s)": 0.029020071029663086,
-            "Jumlah Titik": 8
-        },
-        {
-            "Klaster": "Selatan",
-            "Jarak Optimasi (km)": 36.652,
-            "Jarak Visual Jalan (km)": 75.52,
-            "Durasi Jalan (menit)": 103.8,
-            "Runtime (s)": 0.07549691200256348,
-            "Jumlah Titik": 16
-        },
-        {
-            "Klaster": "Timur",
-            "Jarak Optimasi (km)": 33.975,
-            "Jarak Visual Jalan (km)": 60.72,
-            "Durasi Jalan (menit)": 88.7,
-            "Runtime (s)": 0.08590388298034668,
-            "Jumlah Titik": 14
-        },
-        {
-            "Klaster": "Utara",
-            "Jarak Optimasi (km)": 34.851,
-            "Jarak Visual Jalan (km)": 60.17,
-            "Durasi Jalan (menit)": 80.1,
-            "Runtime (s)": 0.09601712226867676,
-            "Jumlah Titik": 13
-        }
+    "barat": [
+        "UPTD Gudang Farmasi Surabaya",
+        "Puskesmas Bangkingan Surabaya",
+        "Puskesmas Jeruk Surabaya",
+        "Puskesmas Lidah Kulon Surabaya",
+        "Puskesmas Made Surabaya",
+        "Puskesmas Sememi Surabaya",
+        "Puskesmas Benowo Surabaya",
+        "Puskesmas Manukan Kulon Surabaya",
+        "Puskesmas Lontar Surabaya",
+        "Puskesmas Balongsari Surabaya",
+        "Puskesmas Tanjungsari Surabaya",
+        "Puskesmas Asemrowo Surabaya",
+        "Puskesmas Simomulyo Surabaya",
+        "UPTD Gudang Farmasi Surabaya"
+    ],
+    "pusat": [
+        "UPTD Gudang Farmasi Surabaya",
+        "Puskesmas Ketabang Surabaya",
+        "Puskesmas Tambakrejo Surabaya",
+        "Puskesmas Simolawang Surabaya",
+        "Puskesmas Peneleh Surabaya",
+        "Puskesmas Gundih Surabaya",
+        "Puskesmas Tembok Dukuh Surabaya",
+        "Puskesmas Kedungdoro Surabaya",
+        "Puskesmas Dr. Soetomo Surabaya",
+        "UPTD Gudang Farmasi Surabaya"
+    ],
+    "selatan": [
+        "UPTD Gudang Farmasi Surabaya",
+        "Puskesmas Sidosermo Surabaya",
+        "Puskesmas Siwalankerto Surabaya",
+        "Puskesmas Jemursari Surabaya",
+        "Puskesmas Gayungan Surabaya",
+        "Puskesmas Kebonsari Surabaya",
+        "Puskesmas Wiyung Surabaya",
+        "Puskesmas Balas Klumprik Surabaya",
+        "Puskesmas Kedurus Surabaya",
+        "Puskesmas Dukuh Kupang Surabaya",
+        "Puskesmas Putat Jaya Surabaya",
+        "Puskesmas Banyu Urip Surabaya",
+        "Puskesmas Sawahan Surabaya",
+        "Puskesmas Pakis Surabaya",
+        "Puskesmas Wonokromo Surabaya",
+        "Puskesmas Jagir Surabaya",
+        "Puskesmas Ngagel Rejo Surabaya",
+        "UPTD Gudang Farmasi Surabaya"
+    ],
+    "timur": [
+        "UPTD Gudang Farmasi Surabaya",
+        "Puskesmas Gunung Anyar Surabaya",
+        "Puskesmas Kalirungkut Surabaya",
+        "Puskesmas Tenggilis Surabaya",
+        "Puskesmas Menur Surabaya",
+        "Puskesmas Pucang Sewu Surabaya",
+        "Puskesmas Mojo Surabaya",
+        "Puskesmas Mulyorejo Surabaya",
+        "Puskesmas Kalijudan Surabaya",
+        "Puskesmas Rangkah Surabaya",
+        "Puskesmas Gading Surabaya",
+        "Puskesmas Pacar Keling Surabaya",
+        "Puskesmas Klampis Ngasem Surabaya",
+        "Puskesmas Keputih Surabaya",
+        "Puskesmas Medokan Ayu Surabaya",
+        "UPTD Gudang Farmasi Surabaya"
+    ],
+    "utara": [
+        "UPTD Gudang Farmasi Surabaya",
+        "Puskesmas Tanah Kali Kedinding Surabaya",
+        "Puskesmas Tambak Wedi Surabaya",
+        "Puskesmas Bulak Banteng Surabaya",
+        "Puskesmas Wonokusumo Surabaya",
+        "Puskesmas Sawah Pulo Surabaya",
+        "Puskesmas Perak Timur Surabaya",
+        "Puskesmas Moro Krembangan Surabaya",
+        "Puskesmas Dupak Surabaya",
+        "Puskesmas Krembangan Selatan Surabaya",
+        "Puskesmas Sidotopo Surabaya",
+        "Puskesmas Pegirian Surabaya",
+        "Puskesmas Sidotopo Wetan Surabaya",
+        "Puskesmas Kenjeran Surabaya",
+        "UPTD Gudang Farmasi Surabaya"
     ]
 }
