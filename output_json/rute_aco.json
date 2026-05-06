@@ -1,5 +1,5 @@
 {
-    "Selatan": {
+    "selatan": {
         "rute_nama": [
             "UPTD Gudang Farmasi Surabaya",
             "Puskesmas Sidosermo Surabaya",
@@ -174,7 +174,7 @@
             38.005
         ]
     },
-    "Timur": {
+    "timur": {
         "rute_nama": [
             "UPTD Gudang Farmasi Surabaya",
             "Puskesmas Kalirungkut Surabaya",
@@ -347,7 +347,7 @@
             28.243
         ]
     },
-    "Utara": {
+    "utara": {
         "rute_nama": [
             "UPTD Gudang Farmasi Surabaya",
             "Puskesmas Dupak Surabaya",
@@ -519,7 +519,7 @@
             34.86
         ]
     },
-    "Barat": {
+    "barat": {
         "rute_nama": [
             "UPTD Gudang Farmasi Surabaya",
             "Puskesmas Simomulyo Surabaya",
@@ -690,7 +690,7 @@
             52.354
         ]
     },
-    "Pusat": {
+    "pusat": {
         "rute_nama": [
             "UPTD Gudang Farmasi Surabaya",
             "Puskesmas Ketabang Surabaya",
