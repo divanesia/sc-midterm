@@ -5,8 +5,8 @@ import time
 import os
 
 # 1. Konfigurasi Path
-file_input = 'eas/data/koordinat_eas.csv'
-folder_output = 'eas/data/'
+file_input = 'eas\data\koordinat_eas.csv'
+folder_output = 'eas\data'
 
 # Bikin folder output kalau belum ada
 if not os.path.exists(folder_output):
@@ -39,7 +39,6 @@ def bersihkan_longitude(val):
         
     return float(hasil)
 
-# Terapkan fungsi pembersih yang baru
 df['Latitude'] = df['Latitude'].apply(bersihkan_latitude)
 df['Longitude'] = df['Longitude'].apply(bersihkan_longitude)
 
@@ -47,17 +46,16 @@ df['Longitude'] = df['Longitude'].apply(bersihkan_longitude)
 depot_row = df[df['Nama Puskesmas'].str.contains('UPTD', case=False, na=False)].iloc[0]
 df_puskesmas = df[~df['Nama Puskesmas'].str.contains('UPTD', case=False, na=False)]
 
-# Daftar wilayah klaster
 klaster_list = ['Barat', 'Pusat', 'Selatan', 'Timur', 'Utara']
 
-print("⚙️ MEMPROSES MATRIKS JARAK RIIL (OSRM API)...")
+print("⚙️ MEMPROSES MATRIKS WAKTU (OSRM API)...")
 print("="*50)
 
-# [Fitur Tambahan] Override Jarak Manual (dalam Kilometer)
-# Ubah nilainya jika ada node spesifik yang butuh penyesuaian jarak manual agar rute optimalnya akurat
-override_jarak = {
-    ("BE", "DC"): 5.5, # Silakan ganti 5.5 dengan jarak riil yang seharusnya
-    ("DC", "BE"): 5.5
+# [Fitur Tambahan] Override Waktu Manual (dalam menit)
+# Silakan ubah nilainya jika ada rute spesifik yang dirasa OSRM kurang akurat
+override_waktu = {
+    ("BE", "DC"): 15.0, 
+    ("DC", "BE"): 15.0
 }
 
 # 4. Looping pembuatan matriks per klaster
@@ -71,20 +69,20 @@ for klaster in klaster_list:
     nama_lokasi = df_gabungan['Nama Puskesmas'].tolist()
     
     # Inisialisasi Matriks kosong
-    matriks_jarak = np.zeros((jumlah_titik, jumlah_titik))
+    matriks_waktu = np.zeros((jumlah_titik, jumlah_titik))
     
-    # 5. Hitung jarak riil jalan raya pakai OSRM
+    # 5. Hitung waktu tempuh pakai OSRM
     for i in range(jumlah_titik):
         for j in range(jumlah_titik):
             if i == j:
-                matriks_jarak[i][j] = 0.0
+                matriks_waktu[i][j] = 0.0
             else:
                 nama_asal = df_gabungan.loc[i, 'Nama Puskesmas']
                 nama_tujuan = df_gabungan.loc[j, 'Nama Puskesmas']
-
+                
                 # Cek apakah rute ini ada di daftar override manual
-                if (nama_asal, nama_tujuan) in override_jarak:
-                    matriks_jarak[i][j] = override_jarak[(nama_asal, nama_tujuan)]
+                if (nama_asal, nama_tujuan) in override_waktu:
+                    matriks_waktu[i][j] = override_waktu[(nama_asal, nama_tujuan)]
                     continue
 
                 lon_asal = df_gabungan.loc[i, 'Longitude']
@@ -98,27 +96,26 @@ for klaster in klaster_list:
                 try:
                     response = requests.get(url).json()
                     if response.get('code') == 'Ok':
-                        # OSRM mengembalikan jarak dalam METER, kita bagi 1000 jadi KILOMETER
-                        jarak_meter = response['routes'][0]['distance']
-                        jarak_km = jarak_meter / 1000
-                        matriks_jarak[i][j] = round(jarak_km, 3)
+                        # Durasi dari OSRM dalam satuan detik, kita ubah ke menit
+                        durasi_detik = response['routes'][0]['duration']
+                        durasi_menit = durasi_detik / 60
+                        matriks_waktu[i][j] = round(durasi_menit, 2)
                     else:
                         print(f"⚠️ Gagal mencari rute {nama_asal} ke {nama_tujuan}")
-                        matriks_jarak[i][j] = 999.0
+                        matriks_waktu[i][j] = 999.0
                 except Exception as e:
                     print(f"❌ Error API dari {nama_asal} ke {nama_tujuan}: {e}")
-                    matriks_jarak[i][j] = 999.0
+                    matriks_waktu[i][j] = 999.0
                 
-                # Kasih jeda sedikit biar server OSRM tidak nge-block IP kalian
+                # Jeda agar tidak kena block server OSRM
                 time.sleep(0.2) 
                 
     # 6. Simpan ke dalam DataFrame dan Export ke CSV
-    df_matriks_jarak = pd.DataFrame(matriks_jarak, index=nama_lokasi, columns=nama_lokasi)
-    file_jarak = f"{folder_output}matriks_jarak_riil_{klaster.lower()}.csv"
+    df_matriks_waktu = pd.DataFrame(matriks_waktu, index=nama_lokasi, columns=nama_lokasi)
+    file_waktu = f"{folder_output}matriks_waktu_{klaster.lower()}.csv"
     
-    df_matriks_jarak.to_csv(file_jarak)
-    
-    print(f"✅ Klaster {klaster.upper()}: {jumlah_titik} titik (1 Depot + {jumlah_titik-1} Puskesmas) selesai!")
-    
+    df_matriks_waktu.to_csv(file_waktu)
+    print(f"✅ Matriks Waktu Klaster {klaster.upper()} selesai! ({jumlah_titik} titik)")
+
 print("="*50)
-print("🎉 SEMUA MATRIKS JARAK RIIL BERHASIL DIBUAT!")
+print("🎉 SEMUA MATRIKS WAKTU BERHASIL DIBUAT!")
