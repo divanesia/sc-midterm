@@ -18,3 +18,5 @@ __pycache__/
 
 # Local data (optional, kalau datanya gede banget dan gamau di-push)
 # data/
+
+.vscode/

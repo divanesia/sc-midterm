@@ -1,0 +1,123 @@
+Nama Puskesmas,Latitude,Longitude,Wilayah,Jaringan Pelayanan,Jenis Layanan
+UPTD Gudang Farmasi ,"-732,229","1,127,717",,,
+Puskesmas Asemrowo ,"-725,186","1,127,146",Barat,Puskesmas Induk,Rawat Jalan
+Puskesmas Balongsari ,"-725,923","1,126,783",Barat,Puskesmas Induk,Rawat Inap
+Puskesmas Bangkingan ,"-732,492","1,126,561",Barat,Puskesmas Induk,Rawat Jalan
+Puskesmas Benowo ,"-723,473","1,126,115",Barat,Puskesmas Induk,Rawat Jalan
+Puskesmas Jeruk ,"-731,044","1,126,384",Barat,Puskesmas Induk,Rawat Jalan
+Puskesmas Lidah Kulon ,"-730,544","1,126,384",Barat,Puskesmas Induk,Rawat Jalan
+Puskesmas Lontar ,"-728,506","1,126,627",Barat,Puskesmas Induk,Rawat Jalan
+Puskesmas Made ,"-727,731","112,637",Barat,Puskesmas Induk,Rawat Jalan
+Puskesmas Manukan Kulon ,"-725,847","1,126,606",Barat,Puskesmas Induk,Rawat Inap
+Puskesmas Sememi ,"-724,835","1,126,355",Barat,Puskesmas Induk,Rawat Inap
+Puskesmas Simomulyo ,"-726,246","112,712",Barat,Puskesmas Induk,Rawat Inap
+Puskesmas Tanjungsari ,"-72,594","1,126,893",Barat,Puskesmas Induk,Rawat Inap
+Puskesmas Dr. Soetomo ,"-727,735","1,127,341",Pusat,Puskesmas Induk,Rawat Jalan
+Puskesmas Gundih ,"-724,724","1,127,254",Pusat,Puskesmas Induk,Rawat Jalan
+Puskesmas Kedungdoro ,"-72,637","1,127,382",Pusat,Puskesmas Induk,Rawat Jalan
+Puskesmas Ketabang ,"-725,806","1,127,468",Pusat,Puskesmas Induk,Rawat Jalan
+Puskesmas Peneleh ,"-72,523","1,127,408",Pusat,Puskesmas Induk,Rawat Jalan
+Puskesmas Simolawang ,"-723,487","112,751",Pusat,Puskesmas Induk,Rawat Jalan
+Puskesmas Tambakrejo ,"-724,845","1,127,556",Pusat,Puskesmas Induk,Rawat Jalan
+Puskesmas Tembok Dukuh ,"-725,453","1,127,192",Pusat,Puskesmas Induk,Rawat Jalan
+Puskesmas Balas Klumprik ,"-733,652","112,69",Selatan,Puskesmas Induk,Rawat Jalan
+Puskesmas Banyu Urip ,"-727,151","112,72",Selatan,Puskesmas Induk,Rawat Inap
+Puskesmas Dukuh Kupang ,"-728,324","1,127,122",Selatan,Puskesmas Induk,Rawat Inap
+Puskesmas Gayungan ,"-73,381","1,127,187",Selatan,Puskesmas Induk,Rawat Jalan
+Puskesmas Jagir ,"-730,566","1,127,377",Selatan,Puskesmas Induk,Rawat Inap
+Puskesmas Jemursari ,"-732,608","112,74",Selatan,Puskesmas Induk,Rawat Jalan
+Puskesmas Kebonsari ,"-73,284","1,127,144",Selatan,Puskesmas Induk,Rawat Inap
+Puskesmas Kedurus ,"-731,975","1,127,094",Selatan,Puskesmas Induk,Rawat Inap
+Puskesmas Ngagel Rejo ,"-729,296","1,127,488",Selatan,Puskesmas Induk,Rawat Jalan
+Puskesmas Pakis ,"-728,177","1,127,285",Selatan,Puskesmas Induk,Rawat Inap
+Puskesmas Putat Jaya ,"-728,142","1,127,224",Selatan,Puskesmas Induk,Rawat Jalan
+Puskesmas Sawahan ,"-726,558","1,127,278",Selatan,Puskesmas Induk,Rawat Jalan
+Puskesmas Sidosermo ,"-730,733","1,127,557",Selatan,Puskesmas Induk,Rawat Jalan
+Puskesmas Siwalankerto ,"-734,027","1,127,365",Selatan,Puskesmas Induk,Rawat Inap
+Puskesmas Wiyung ,"-733,152","112,69",Selatan,Puskesmas Induk,Rawat Inap
+Puskesmas Wonokromo ,"-730,318","1,127,304",Selatan,Puskesmas Induk,Rawat Jalan
+Puskesmas Gading ,"-724,249","112,764",Timur,Puskesmas Induk,Rawat Jalan
+Puskesmas Gunung Anyar ,"-734,086","1,127,839",Timur,Puskesmas Induk,Rawat Inap
+Puskesmas Kalijudan ,"-72,574","112,778",Timur,Puskesmas Induk,Rawat Jalan
+Puskesmas Kalirungkut ,"-732,222","1,127,708",Timur,Puskesmas Induk,Rawat Jalan
+Puskesmas Keputih ,"-7,294","1,128,019",Timur,Puskesmas Induk,Rawat Inap
+Puskesmas Klampis Ngasem ,"-728,916","1,127,785",Timur,Puskesmas Induk,Rawat Jalan
+Puskesmas Medokan Ayu ,"-732,394","112,795",Timur,Puskesmas Induk,Rawat Inap
+Puskesmas Menur ,"-729,687","1,127,643",Timur,Puskesmas Induk,Rawat Jalan
+Puskesmas Mojo ,"-72,709","1,127,708",Timur,Puskesmas Induk,Rawat Jalan
+Puskesmas Mulyorejo ,"-726,072","1,127,847",Timur,Puskesmas Induk,Rawat Inap
+Puskesmas Pacar Keling ,"-725,719","1,127,627",Timur,Puskesmas Induk,Rawat Jalan
+Puskesmas Pucang Sewu ,"-728,659","1,127,555",Timur,Puskesmas Induk,Rawat Jalan
+Puskesmas Rangkah ,"-724,631","1,127,672",Timur,Puskesmas Induk,Rawat Jalan
+Puskesmas Tenggilis ,"-732,236","1,127,621",Timur,Puskesmas Induk,Rawat Inap
+Puskesmas Bulak Banteng ,"-721,779","1,127,663",Utara,Puskesmas Induk,Rawat Jalan
+Puskesmas Dupak ,"-723,935","1,127,173",Utara,Puskesmas Induk,Rawat Inap
+Puskesmas Kenjeran ,"-724,111","1,127,953",Utara,Puskesmas Induk,Rawat Jalan
+Puskesmas Krembangan Selatan ,"-723,307","1,127,312",Utara,Puskesmas Induk,Rawat Inap
+Puskesmas Moro Krembangan ,"-723,478","1,127,124",Utara,Puskesmas Induk,Rawat Jalan
+Puskesmas Pegirian ,"-722,463","1,127,469",Utara,Puskesmas Induk,Rawat Jalan
+Puskesmas Perak Timur ,"-722,273","1,127,355",Utara,Puskesmas Induk,Rawat Jalan
+Puskesmas Sawah Pulo ,"-722,281","1,127,447",Utara,Puskesmas Induk,Rawat Jalan
+Puskesmas Sidotopo ,"-723,035","1,127,459",Utara,Puskesmas Induk,Rawat Jalan
+Puskesmas Sidotopo Wetan ,"-722,659","1,127,635",Utara,Puskesmas Induk,Rawat Inap
+Puskesmas Tambak Wedi ,"-721,748","1,127,724",Utara,Puskesmas Induk,Rawat Jalan
+Puskesmas Tanah Kali Kedinding ,"-723,038","1,127,745",Utara,Puskesmas Induk,Rawat Inap
+Puskesmas Wonokusumo ,"-721,966","1,127,526",Utara,Puskesmas Induk,Rawat Jalan
+Pustu Babat Jerawat,"-724,046","1,126,294",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Banjarsugihan,"-725,926","1,126,613",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Buntaran,"-724,878","1,126,739",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Kandangan,"-725,203","1,126,501",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Pakal,"-722,583","1,126,158",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Putat Gede,"-728,725","1,127,017",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Romo Kalisari,"-720,498","1,126,394",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Simohilir,"-726,083","112,711",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Sonokawijenan,"-726,854","112,701",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Sumber Rejo,"-721,688","1,126,141",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Tambak Dono,"-726,978","112,702",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Tambak Langon,"-721,907","1,126,544",Barat,Puskesmas Pembantu,Rawat Jalan
+Pustu Kapasari,"-724,771","1,127,498",Pusat,Puskesmas Pembantu,Rawat Jalan
+Pustu Asem Jajar,"-725,411","1,127,217",Pusat,Puskesmas Pembantu,Rawat Jalan
+Pustu Embong Kaliasin,"-727,521","1,127,316",Pusat,Puskesmas Pembantu,Rawat Jalan
+Pustu Kapasan,"-724,241","1,127,513",Pusat,Puskesmas Pembantu,Rawat Jalan
+Pustu Granting,"-723,859","1,127,531",Pusat,Puskesmas Pembantu,Rawat Jalan
+Pustu Kebondalem,"-723,364","1,127,484",Pusat,Puskesmas Pembantu,Rawat Jalan
+Pustu Keputran,"-728,229","1,127,428",Pusat,Puskesmas Pembantu,Rawat Jalan
+Pustu Sidodadi,"-723,705","1,127,478",Pusat,Puskesmas Pembantu,Rawat Jalan
+Pustu Babatan,"-730,213","1,126,811",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Bendul Merisi,"-731,042","1,127,429",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Dukuh Menanggal,"-734,371","1,127,308",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Gunungsari,"-729,979","1,127,149",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Jambangan,"-73,217","112,716",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Karah,"-731,486","1,127,206",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Kebraon,"-732,962","1,127,004",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Ketintang,"-731,486","1,127,206",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Margorejo,"-731,543","1,127,411",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Pagesangan,"-733,459","1,127,121",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Petemon,"-72,614","1,127,185",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Pradah Kali Kendal,"-728,859","1,126,861",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Putat Jaya,"-727,668","1,127,163",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Sawunggaling,"-729,854","1,127,266",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Simokatrungan,"-727,214","1,127,195",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Warugunung,"-735,037","1,126,734",Selatan,Puskesmas Pembantu,Rawat Jalan
+Pustu Baratajaya,"-729,606","1,127,595",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Gebang Putih,"-728,173","112,787",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Gubeng Klingsingan,"-726,881","1,127,533",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Karang Empat,"-725,377","1,127,717",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Kutisari,"-733,592","1,127,483",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Medokan Ayu,"-732,569","1,128,009",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Medokan Semampir,"-730,625","1,127,848",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Penjaringan Sari,"-731,784","1,127,867",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Rungkut Kidul,"-732,936","1,127,723",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Rungkut Menanggal,"-73,381","1,127,681",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Semolowaru,"-730,041","1,127,813",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Sutorejo,"-725,877","1,127,921",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Mulyorejo / wisma permai,"-727,431","1,127,861",Timur,Puskesmas Pembantu,Rawat Jalan
+Pustu Bongkaran,"-724,224","1,127,433",Utara,Puskesmas Pembantu,Rawat Jalan
+Pustu Bulak,"-723,206","1,127,831",Utara,Puskesmas Pembantu,Rawat Jalan
+Pustu Kedung Cowek,"-721,324","1,127,792",Utara,Puskesmas Pembantu,Rawat Jalan
+Pustu Krembangan Baru,"-72,377","1,127,285",Utara,Puskesmas Pembantu,Rawat Jalan
+Pustu Nyamplungan,"-723,171","1,127,397",Utara,Puskesmas Pembantu,Rawat Jalan
+Pustu Pegirian,"-72,248","1,127,521",Utara,Puskesmas Pembantu,Rawat Jalan
+Pustu Perak Barat,"-722,221","1,127,256",Utara,Puskesmas Pembantu,Rawat Jalan
+Pustu Tanah Kali Kedinding,"-722,646","1,127,694",Utara,Puskesmas Pembantu,Rawat Jalan
+Pustu Wonokusumo,"-721,814","1,127,547",Utara,Puskesmas Pembantu,Rawat Jalan
