@@ -2,34 +2,52 @@
     "algoritma": "Memetic Algorithm (MA)",
     "hasil_per_klaster": {
         "Barat": {
+            "statistik_10_run": {
+                "fitness_minimum": 698.36,
+                "fitness_rata_rata": 699.04,
+                "fitness_std_dev": 2.05,
+                "waktu_komputasi_rata_rata_detik": 168.732,
+                "semua_fitness_run": [
+                    698.36,
+                    705.19,
+                    698.36,
+                    698.36,
+                    698.36,
+                    698.36,
+                    698.36,
+                    698.36,
+                    698.36,
+                    698.36
+                ]
+            },
             "total_kurir": 2,
-            "waktu_komputasi_detik": 293.081,
+            "waktu_komputasi_detik_terbaik": 302.078,
             "total_waktu_semua_menit": 698.36,
             "total_jarak_semua_km": 163.87,
             "riwayat_konvergensi": [
-                733.08,
-                707.0,
+                722.33,
+                711.03,
                 702.43,
                 700.97,
                 700.97,
                 700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
-                700.97,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
+                698.36,
                 698.36,
                 698.36,
                 698.36,
@@ -122,8 +140,8 @@
                         "Puskesmas Manukan Kulon ",
                         "Puskesmas Lontar ",
                         "Puskesmas Bangkingan ",
-                        "Puskesmas Lidah Kulon ",
                         "Puskesmas Jeruk ",
+                        "Puskesmas Lidah Kulon ",
                         "Puskesmas Made ",
                         "Puskesmas Sememi ",
                         "Puskesmas Benowo ",
@@ -172,11 +190,11 @@
                             112.6561
                         ],
                         [
-                            -7.30544,
+                            -7.31044,
                             112.6384
                         ],
                         [
-                            -7.31044,
+                            -7.30544,
                             112.6384
                         ],
                         [
@@ -270,8 +288,26 @@
             ]
         },
         "Pusat": {
+            "statistik_10_run": {
+                "fitness_minimum": 400.53,
+                "fitness_rata_rata": 400.53,
+                "fitness_std_dev": 0.0,
+                "waktu_komputasi_rata_rata_detik": 62.918,
+                "semua_fitness_run": [
+                    400.53,
+                    400.53,
+                    400.53,
+                    400.53,
+                    400.53,
+                    400.53,
+                    400.53,
+                    400.53,
+                    400.53,
+                    400.53
+                ]
+            },
             "total_kurir": 1,
-            "waktu_komputasi_detik": 179.12,
+            "waktu_komputasi_detik_terbaik": 63.38,
             "total_waktu_semua_menit": 400.53,
             "total_jarak_semua_km": 53.83,
             "riwayat_konvergensi": [
@@ -479,142 +515,160 @@
             ]
         },
         "Selatan": {
+            "statistik_10_run": {
+                "fitness_minimum": 842.49,
+                "fitness_rata_rata": 847.27,
+                "fitness_std_dev": 3.53,
+                "waktu_komputasi_rata_rata_detik": 243.889,
+                "semua_fitness_run": [
+                    842.49,
+                    846.78,
+                    842.49,
+                    845.82,
+                    850.62,
+                    850.15,
+                    850.15,
+                    842.49,
+                    851.08,
+                    850.62
+                ]
+            },
             "total_kurir": 2,
-            "waktu_komputasi_detik": 562.605,
-            "total_waktu_semua_menit": 845.82,
-            "total_jarak_semua_km": 137.53,
+            "waktu_komputasi_detik_terbaik": 244.531,
+            "total_waktu_semua_menit": 842.49,
+            "total_jarak_semua_km": 132.86,
             "riwayat_konvergensi": [
-                861.49,
-                858.12,
-                857.57,
+                866.55,
                 855.65,
-                851.5,
-                851.5,
-                851.5,
-                850.62,
-                850.62,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                849.02,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82,
-                845.82
+                854.45,
+                852.0,
+                851.79,
+                851.79,
+                849.53,
+                849.2,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.19,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                847.01,
+                845.26,
+                843.97,
+                843.97,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49,
+                842.49
             ],
             "rute_per_kurir": [
                 {
                     "id_kurir": 1,
-                    "waktu_tempuh_menit": 586.01,
-                    "jarak_tempuh_km": 86.9,
+                    "waktu_tempuh_menit": 597.05,
+                    "jarak_tempuh_km": 88.91,
                     "urutan_kunjungan": [
                         "UPTD Gudang Farmasi ",
                         "Puskesmas Sidosermo ",
-                        "Puskesmas Ngagel Rejo ",
-                        "Puskesmas Pakis ",
-                        "Puskesmas Putat Jaya ",
-                        "Puskesmas Dukuh Kupang ",
-                        "Puskesmas Banyu Urip ",
-                        "Puskesmas Sawahan ",
                         "Puskesmas Jagir ",
                         "Puskesmas Jemursari ",
                         "Puskesmas Siwalankerto ",
                         "Puskesmas Gayungan ",
                         "Puskesmas Kebonsari ",
-                        "Puskesmas Wonokromo ",
-                        "Puskesmas Kedurus ",
                         "Puskesmas Balas Klumprik ",
                         "Puskesmas Wiyung ",
-                        "Pustu Kebraon",
-                        "Pustu Warugunung",
-                        "Pustu Pagesangan",
-                        "Pustu Jambangan",
-                        "Pustu Karah",
-                        "Pustu Ketintang",
-                        "Pustu Dukuh Menanggal",
+                        "Puskesmas Kedurus ",
+                        "Puskesmas Wonokromo ",
+                        "Puskesmas Ngagel Rejo ",
+                        "Puskesmas Pakis ",
+                        "Puskesmas Putat Jaya ",
+                        "Puskesmas Dukuh Kupang ",
+                        "Puskesmas Sawahan ",
+                        "Puskesmas Banyu Urip ",
+                        "Pustu Simokatrungan",
+                        "Pustu Petemon",
+                        "Pustu Putat Jaya",
+                        "Pustu Pradah Kali Kendal",
+                        "Pustu Babatan",
+                        "Pustu Gunungsari",
+                        "Pustu Sawunggaling",
                         "UPTD Gudang Farmasi "
                     ],
                     "koordinat_kunjungan": [
@@ -625,30 +679,6 @@
                         [
                             -7.30733,
                             112.7557
-                        ],
-                        [
-                            -7.29296,
-                            112.7488
-                        ],
-                        [
-                            -7.28177,
-                            112.7285
-                        ],
-                        [
-                            -7.28142,
-                            112.7224
-                        ],
-                        [
-                            -7.28324,
-                            112.7122
-                        ],
-                        [
-                            -7.27151,
-                            112.72
-                        ],
-                        [
-                            -7.26558,
-                            112.7278
                         ],
                         [
                             -7.30566,
@@ -671,14 +701,6 @@
                             112.7144
                         ],
                         [
-                            -7.30318,
-                            112.7304
-                        ],
-                        [
-                            -7.31975,
-                            112.7094
-                        ],
-                        [
                             -7.33652,
                             112.69
                         ],
@@ -687,76 +709,44 @@
                             112.69
                         ],
                         [
-                            -7.32962,
-                            112.7004
+                            -7.31975,
+                            112.7094
                         ],
                         [
-                            -7.35037,
-                            112.6734
+                            -7.30318,
+                            112.7304
                         ],
                         [
-                            -7.33459,
-                            112.7121
+                            -7.29296,
+                            112.7488
                         ],
                         [
-                            -7.3217,
-                            112.716
+                            -7.28177,
+                            112.7285
                         ],
                         [
-                            -7.31486,
-                            112.7206
+                            -7.28142,
+                            112.7224
                         ],
                         [
-                            -7.31486,
-                            112.7206
+                            -7.28324,
+                            112.7122
                         ],
                         [
-                            -7.34371,
-                            112.7308
+                            -7.26558,
+                            112.7278
                         ],
                         [
-                            -7.32229,
-                            112.7717
-                        ]
-                    ]
-                },
-                {
-                    "id_kurir": 2,
-                    "waktu_tempuh_menit": 259.81,
-                    "jarak_tempuh_km": 50.63,
-                    "urutan_kunjungan": [
-                        "UPTD Gudang Farmasi ",
-                        "Pustu Bendul Merisi",
-                        "Pustu Margorejo",
-                        "Pustu Petemon",
-                        "Pustu Simokatrungan",
-                        "Pustu Putat Jaya",
-                        "Pustu Pradah Kali Kendal",
-                        "Pustu Babatan",
-                        "Pustu Gunungsari",
-                        "Pustu Sawunggaling",
-                        "UPTD Gudang Farmasi "
-                    ],
-                    "koordinat_kunjungan": [
-                        [
-                            -7.32229,
-                            112.7717
-                        ],
-                        [
-                            -7.31042,
-                            112.7429
-                        ],
-                        [
-                            -7.31543,
-                            112.7411
-                        ],
-                        [
-                            -7.2614,
-                            112.7185
+                            -7.27151,
+                            112.72
                         ],
                         [
                             -7.27214,
                             112.7195
+                        ],
+                        [
+                            -7.2614,
+                            112.7185
                         ],
                         [
                             -7.27668,
@@ -783,121 +773,203 @@
                             112.7717
                         ]
                     ]
+                },
+                {
+                    "id_kurir": 2,
+                    "waktu_tempuh_menit": 245.44,
+                    "jarak_tempuh_km": 43.95,
+                    "urutan_kunjungan": [
+                        "UPTD Gudang Farmasi ",
+                        "Pustu Bendul Merisi",
+                        "Pustu Margorejo",
+                        "Pustu Dukuh Menanggal",
+                        "Pustu Kebraon",
+                        "Pustu Warugunung",
+                        "Pustu Pagesangan",
+                        "Pustu Jambangan",
+                        "Pustu Karah",
+                        "Pustu Ketintang",
+                        "UPTD Gudang Farmasi "
+                    ],
+                    "koordinat_kunjungan": [
+                        [
+                            -7.32229,
+                            112.7717
+                        ],
+                        [
+                            -7.31042,
+                            112.7429
+                        ],
+                        [
+                            -7.31543,
+                            112.7411
+                        ],
+                        [
+                            -7.34371,
+                            112.7308
+                        ],
+                        [
+                            -7.32962,
+                            112.7004
+                        ],
+                        [
+                            -7.35037,
+                            112.6734
+                        ],
+                        [
+                            -7.33459,
+                            112.7121
+                        ],
+                        [
+                            -7.3217,
+                            112.716
+                        ],
+                        [
+                            -7.31486,
+                            112.7206
+                        ],
+                        [
+                            -7.31486,
+                            112.7206
+                        ],
+                        [
+                            -7.32229,
+                            112.7717
+                        ]
+                    ]
                 }
             ]
         },
         "Timur": {
+            "statistik_10_run": {
+                "fitness_minimum": 698.29,
+                "fitness_rata_rata": 698.9,
+                "fitness_std_dev": 0.79,
+                "waktu_komputasi_rata_rata_detik": 222.25,
+                "semua_fitness_run": [
+                    699.55,
+                    699.55,
+                    698.29,
+                    698.29,
+                    698.29,
+                    698.29,
+                    698.29,
+                    698.29,
+                    700.57,
+                    699.55
+                ]
+            },
             "total_kurir": 2,
-            "waktu_komputasi_detik": 252.2,
-            "total_waktu_semua_menit": 699.55,
-            "total_jarak_semua_km": 100.72,
+            "waktu_komputasi_detik_terbaik": 215.135,
+            "total_waktu_semua_menit": 698.29,
+            "total_jarak_semua_km": 100.03,
             "riwayat_konvergensi": [
-                707.35,
-                700.77,
-                700.77,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                700.61,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55,
-                699.55
+                709.64,
+                708.58,
+                704.9,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.45,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29,
+                698.29
             ],
             "rute_per_kurir": [
                 {
                     "id_kurir": 1,
-                    "waktu_tempuh_menit": 585.09,
-                    "jarak_tempuh_km": 80.36,
+                    "waktu_tempuh_menit": 589.95,
+                    "jarak_tempuh_km": 81.32,
                     "urutan_kunjungan": [
                         "UPTD Gudang Farmasi ",
                         "Puskesmas Kalirungkut ",
@@ -916,13 +988,13 @@
                         "Puskesmas Gading ",
                         "Pustu Karang Empat",
                         "Pustu Gubeng Klingsingan",
-                        "Pustu Baratajaya",
                         "Pustu Gebang Putih",
                         "Pustu Sutorejo",
                         "Pustu Mulyorejo / wisma permai",
                         "Pustu Semolowaru",
                         "Pustu Medokan Semampir",
-                        "Pustu Rungkut Kidul",
+                        "Pustu Penjaringan Sari",
+                        "Pustu Medokan Ayu",
                         "UPTD Gudang Farmasi "
                     ],
                     "koordinat_kunjungan": [
@@ -995,10 +1067,6 @@
                             112.7533
                         ],
                         [
-                            -7.29606,
-                            112.7595
-                        ],
-                        [
                             -7.28173,
                             112.787
                         ],
@@ -1019,8 +1087,12 @@
                             112.7848
                         ],
                         [
-                            -7.32936,
-                            112.7723
+                            -7.31784,
+                            112.7867
+                        ],
+                        [
+                            -7.32569,
+                            112.8009
                         ],
                         [
                             -7.32229,
@@ -1030,14 +1102,14 @@
                 },
                 {
                     "id_kurir": 2,
-                    "waktu_tempuh_menit": 114.46,
-                    "jarak_tempuh_km": 20.36,
+                    "waktu_tempuh_menit": 108.34,
+                    "jarak_tempuh_km": 18.71,
                     "urutan_kunjungan": [
                         "UPTD Gudang Farmasi ",
-                        "Pustu Penjaringan Sari",
-                        "Pustu Medokan Ayu",
+                        "Pustu Rungkut Kidul",
                         "Pustu Rungkut Menanggal",
                         "Pustu Kutisari",
+                        "Pustu Baratajaya",
                         "UPTD Gudang Farmasi "
                     ],
                     "koordinat_kunjungan": [
@@ -1046,12 +1118,8 @@
                             112.7717
                         ],
                         [
-                            -7.31784,
-                            112.7867
-                        ],
-                        [
-                            -7.32569,
-                            112.8009
+                            -7.32936,
+                            112.7723
                         ],
                         [
                             -7.3381,
@@ -1062,6 +1130,10 @@
                             112.7483
                         ],
                         [
+                            -7.29606,
+                            112.7595
+                        ],
+                        [
                             -7.32229,
                             112.7717
                         ]
@@ -1070,12 +1142,30 @@
             ]
         },
         "Utara": {
+            "statistik_10_run": {
+                "fitness_minimum": 577.53,
+                "fitness_rata_rata": 577.82,
+                "fitness_std_dev": 0.86,
+                "waktu_komputasi_rata_rata_detik": 187.616,
+                "semua_fitness_run": [
+                    577.53,
+                    577.53,
+                    580.4,
+                    577.53,
+                    577.53,
+                    577.53,
+                    577.53,
+                    577.53,
+                    577.53,
+                    577.53
+                ]
+            },
             "total_kurir": 1,
-            "waktu_komputasi_detik": 174.228,
+            "waktu_komputasi_detik_terbaik": 194.008,
             "total_waktu_semua_menit": 577.53,
             "total_jarak_semua_km": 92.36,
             "riwayat_konvergensi": [
-                580.83,
+                583.72,
                 577.53,
                 577.53,
                 577.53,
