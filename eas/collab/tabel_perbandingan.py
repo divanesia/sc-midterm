@@ -4,8 +4,8 @@ import os
 from IPython.display import display
 
 # 1. Konfigurasi Path Input (JSON) dan Output (CSV di folder collab)
-path_json = r'C:\diva\1TS\6\sc\midterm\eas\output_json'
-path_collab = r'C:\diva\1TS\6\sc\midterm\eas\collab'  
+path_json = 'eas\output_json'
+path_collab = 'eas\collab'  
 
 file_list = [
     'rute_ga.json', 
@@ -42,7 +42,7 @@ for file_name in file_list:
                     'Algoritma': algo_name,
                     'Klaster': klaster,
                     'Total Kurir': hasil['total_kurir'],
-                    'Jarak Min (KM)': stats['fitness_minimum'],
+                    'Jarak Min (KM)': hasil['total_jarak_semua_km'],
                     'Jarak Rata-rata (KM)': stats['fitness_rata_rata'],
                     'Std Deviasi': stats['fitness_std_dev'],
                     'Waktu Terbaik (Detik)': hasil['waktu_komputasi_detik_terbaik'],
