@@ -1,5 +1,5 @@
 Algoritma,Waktu Terbaik (Detik),Waktu Rata-rata (Detik)
-DPSO,1.44,1.28
+DPSO,0.43,0.44
+GA,13.11,13.13
 ACO,62.48,66.39
-GA,120.78,130.39
 MA,1019.13,885.4
