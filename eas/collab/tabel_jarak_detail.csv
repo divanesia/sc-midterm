@@ -1,4 +1,4 @@
-Algoritma,Klaster,Total Kurir,Jarak Min (KM),Jarak Rata-rata (KM),Std Deviasi Jarak
+Algoritma,Klaster,Total Kurir,Jarak Min (KM),Jarak Rata-rata (KM),Std Deviasi
 ACO,Barat,2,146.64,151.67,1.77
 DPSO,Barat,2,224.87,305.56,57.48
 GA,Barat,2,192.92,200.0,6.05
