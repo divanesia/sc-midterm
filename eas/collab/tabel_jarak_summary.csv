@@ -2,4 +2,4 @@ Algoritma,Total Kurir,Jarak Min (KM),Jarak Rata-rata (KM),Rata-rata Std Deviasi
 ACO,8,453.22,465.63,1.36
 MA,8,545.01,549.84,1.02
 GA,8,646.28,710.91,9.48
-DPSO,9,833.65,921.26,13.6
+DPSO,8,835.51,1188.37,50.19
